@@ -1,0 +1,188 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+@font-face {
+	font-family: Aspa Regular;
+	src:url(../font/asap_[allfont.ru].ttf);
+}
+@font-face {
+	font-family: Aspa Medium;
+	src:url(../font/Asap-Medium.ttf);
+}
+@font-face {
+	font-family: Aspa Bold;
+	src:url(../font/Asap-Bold.ttf);
+}
+
+header{
+	width: 100%;
+	background-image: url(../img/bg.png);
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.container{
+	max-width: 1024px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.flex{
+	width: 100%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.logo {
+	padding-top: 10px;
+	background-repeat: no-repeat;
+}
+
+nav ul{
+	list-style-type: none;
+}
+
+nav li{
+	display: inline-block;
+	padding-top: 32px;
+	padding-right: 37px;
+}
+
+nav a{
+	font-family: Aspa Regular;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: black;
+}
+
+.fl{
+	width: 100%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.text1 {
+	width: 50%;//ширину 50%
+				// можно убрать и сделать нижний отступ
+}
+
+.big1 {
+	font-family: Aspa Medium;
+	color: #4d4d4d;
+	font-size: 95px;
+	padding-top: 184px;
+}
+
+.abig1 {
+	font-family: Aspa Medium;
+	color: #4d4d4d;
+	padding-top: 24px;
+}
+
+.bot1 {
+	font-family: Aspa Bold;
+	display: inline-block;
+	border: 2px solid #fff;
+	background: white;
+	color: #4d4d4d;
+	padding-bottom: 13px;
+	padding-top: 13px;
+	padding-right: 13px;
+	padding-left: 13px;
+	margin-top: 30px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.bot2 {
+	font-family: Aspa Bold;
+	display: inline-block;
+	border: 2px solid #4d4d4d;
+	color: #4d4d4d;
+	padding-bottom: 13px;
+	padding-top: 13px;
+	padding-right: 30px;
+	padding-left: 30px;
+	margin-top: 30px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.men {
+	position: relative;
+	bottom: 500px;
+	left: 400px;
+}
+
+.men1 {
+	position: relative;
+}
+
+.text2 {
+	width: 50%;
+	padding-top: 178px;
+}
+
+.big2 {
+	font-family: Aspa Bold;
+	color: #4d4d4d;
+	font-size: 70px;
+	padding-top: 21px;
+}
+
+.p1 {
+	font-family: Aspa Regular;
+}
+
+.bot3 {
+	font-family: Aspa Bold;
+	display: inline-block;
+	border: 2px solid #4d4d4d;
+	color: #4d4d4d;
+	padding-bottom: 13px;
+	padding-top: 13px;
+	padding-right: 30px;
+	padding-left: 30px;
+	margin-top: 39px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.men2 {
+	display: inline-block;
+	padding-top: 48px;
+	padding-right: 30px;
+}
+
+a {
+    display: inline-block;
+    color:#878787;
+    line-height: 1;
+    text-decoration:none;
+    cursor: pointer;
+}
+a:after {
+    background-color: #878787;
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    -webkit-transition: width .5s ease-in-out;
+    -moz--transition: width .5s ease-in-out;
+    transition: width .5s ease-in-out;
+}
+a:hover:after,
+a:focus:after {
+    width: 100%;
+}
